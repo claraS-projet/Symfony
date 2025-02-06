@@ -8,3 +8,6 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
+# exclusion du répertoire de configuratrion de PhpStorm
+.idea
+
