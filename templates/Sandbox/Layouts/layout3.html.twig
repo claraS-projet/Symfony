@@ -7,7 +7,7 @@
 </head>
 <body>
 <div id="palmares">
-    {{ render(controller('App\\Controller\\Sandbox\\TwigController::palmaresAction', {n : 3})) }}
+    {{ render(controller('App\\Controller\\Sandbox\\TwigController::palmaresAction', {n : palmares_size})) }}
 </div>
 <div id="vue">
     <h1>{% block titlre_principal %}{% endblock %}</h1>
